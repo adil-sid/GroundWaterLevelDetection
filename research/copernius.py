@@ -12,13 +12,13 @@ months = [f"{m:02d}" for m in range(1, 13)]
 
 # Define variables and datasets
 variables = {
-    # "Temperature": {"dataset": "reanalysis-era5-land", "vars": ["2m_temperature"]},
-    "RelativeHumidity": {"dataset": "reanalysis-era5-land","vars": ["2m_dewpoint_temperature"]},
-    "Rainfall": {"dataset": "reanalysis-era5-land", "vars": ["total_precipitation"]},
-    "SoilMoisture": {"dataset": "reanalysis-era5-land", "vars": ["volumetric_soil_water_layer_1", "volumetric_soil_water_layer_2", "volumetric_soil_water_layer_3", "volumetric_soil_water_layer_4"]},
-    "Evaporation": {"dataset": "reanalysis-era5-land", "vars": ["total_evaporation"]},
-    "AtmosphericPressure": {"dataset": "reanalysis-era5-land", "vars": ["surface_pressure"]},
-    "SoilType": {"dataset": "reanalysis-era5-single-levels", "vars": ["soil_type"]}
+    "Temperature": {"dataset": "reanalysis-era5-land", "vars": ["2m_temperature"]},
+    # "RelativeHumidity": {"dataset": "reanalysis-era5-land","vars": ["2m_dewpoint_temperature"]},
+    # "Rainfall": {"dataset": "reanalysis-era5-land", "vars": ["total_precipitation"]},
+    # "SoilMoisture": {"dataset": "reanalysis-era5-land", "vars": ["volumetric_soil_water_layer_1", "volumetric_soil_water_layer_2", "volumetric_soil_water_layer_3", "volumetric_soil_water_layer_4"]},
+    # "Evaporation": {"dataset": "reanalysis-era5-land", "vars": ["total_evaporation"]},
+    # "AtmosphericPressure": {"dataset": "reanalysis-era5-land", "vars": ["surface_pressure"]},
+    # "SoilType": {"dataset": "reanalysis-era5-single-levels", "vars": ["soil_type"]}
 }
 
 # Loop through variables
