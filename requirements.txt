@@ -1,0 +1,4 @@
+xarray 
+netcdf4 
+pandas 
+scikit-learn
